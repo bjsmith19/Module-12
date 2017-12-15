@@ -1,7 +1,7 @@
 import RoboPiLib.RoboPiLib as RPL
 import RoboPiLib.setup
 
-sensor_pin = 17
+sensor_pin = 16
 
 
 while True:
