@@ -1,9 +1,9 @@
 import RoboPiLib.RoboPiLib as RPL
 import RoboPiLib.setup
 
-sensor_pin = 17
+sensor_pin = 16
 RPL.pinMode(sensor_pin,RPL.INPUT)
 
 while True:
-  PTW.state['d2'] = RPL.digitalRead(sensor_pin)
+  PTW.state['d1'] = RPL.digitalRead(sensor_pin)
   PTW.post()
