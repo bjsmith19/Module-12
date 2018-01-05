@@ -1,6 +1,6 @@
 import RoboPiLib.RoboPiLib as RPL
 import RoboPiLib.setup
-import RoboPiLib.Post_to_web as PTW
+import RoboPiLib.post_to_web as PTW
 
 sensor_pin = 16
 RPL.pinMode(sensor_pin,RPL.INPUT)
