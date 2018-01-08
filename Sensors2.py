@@ -1,4 +1,4 @@
-import setup as RPL
+import setup
 from setup import RPL
 import post_to_web as PTW
 
