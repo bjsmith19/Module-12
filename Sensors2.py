@@ -7,4 +7,7 @@ RPL.pinMode(sensor_pin,RPL.INPUT)
 while True:
   PTW.state['d1'] = RPL.digitalRead(sensor_pin)
   PTW.post()
+<<<<<<< HEAD
   
+=======
+>>>>>>> 358809a84c7c50b4be5ffe2e691556c0676b9dd8
