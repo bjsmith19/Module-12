@@ -20,9 +20,8 @@ def send(d):
   f.write('let msg = `' + msg+'`;')
   f.close()
 
-def post(interval = 0.5):
+def post(interval = 0):
   global tState
   if time.time() - tState > interval:
     send(state)
     tState = time.time()
-
